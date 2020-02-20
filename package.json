@@ -1,0 +1,8 @@
+{
+    "name": "Andres Rodriguez",
+    "main": "app.js",
+    "dependencies": {
+        "ejs": "^3.0.1",
+        "express": "^4.6.1"
+    }
+}

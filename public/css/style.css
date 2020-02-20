@@ -1,0 +1,160 @@
+/* Fonts */
+@font-face{
+    font-family: 'Vermin Vibes';
+    src: url(../fonts/vermin_vibes_2/VerminVibe2.otf);
+}
+@font-face{
+    font-family: 'Zeros';
+    src: url('../fonts/zerothree/zeroesone.ttf');
+}
+
+@font-face{
+    font-family: 'Adam';
+    src: url('../fonts/adam/Adam.otf');
+}
+@font-face{
+    font-family: 'IBM plex Italic';
+    src: url('../fonts/IBMplex/IBMPlexSans-Italic.otf');
+}
+@font-face{
+    font-family: 'IBM plex Regular';
+    src: url('../fonts/IBMplex/IBMPlexSans-Regular.otf');
+}
+@font-face{
+    font-family: 'IBM plex MonoItalic';
+    src: url('../fonts/IBMplex/IBMPlexMono-Italic.otf');
+}
+@font-face{
+    font-family: 'IBM plex Sans-Regular';
+    src: url('../fonts/IBMplex/IBMPlexSans-Text.otf');
+}
+/* Fonts end */
+
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+  font-family: "Varela", sans-serif;
+  color: white;
+  margin: 0;
+}
+
+.background{
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    vertical-align: middle;
+}
+
+.navbar{
+    background: #a2a9b0;
+    font-family: "IBM Plex MonoItalic";
+}
+.nav-link{
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+.navbar-brand{
+    color: #fff;
+    cursor: pointer;
+    font-size: 2rem !important;
+}
+.navbar-brand:hover{
+    color: cyan;
+}
+
+.nav-link{
+    font-family: 'IBM plex Sans-Regular';
+    margin-right: 1em !important;
+}
+.nav-link:hover{
+    color: #000;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+.header{
+    background-image: url('../images/Optimized-Img82.jpeg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.description {
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+    color: #fff;
+}
+.description h1 {
+    color: #fff;
+    font-family: "IBM plex Italic", sans-serif;
+    font-size: 6rem !important;
+    font-weight: bold;
+}
+.description p {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-family: "Adam", sans-serif;
+    font-weight: bold;
+}
+.typewrite{
+    pointer-events:none;
+    text-decoration: none;
+    color:white;
+    cursor:default;
+}
+
+.features {
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
+}
+.feature-title {
+    font-family: "IBM plex Sans-Regular", sans-serif;
+    color: #333;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.features img {
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 16px;
+}
+
+.page-footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 30px 0 15px;
+}
+.footer-copyright {
+    color: #666;
+    padding: 5px 0;
+    padding-top: 2%;
+}
+.icon{
+    height: 50px;
+}
+#links img{
+    margin-left: 1vh;
+    margin-right: 1vh;
+    margin-top: 1vh;
+}

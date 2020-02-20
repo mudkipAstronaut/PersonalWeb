@@ -1,0 +1,15 @@
+.descript {
+    margin: 4em auto;
+    padding: 1em;
+}
+.descript h2{
+    font-family: "Adam";
+    font-weight: bold;
+}
+.descript p{
+    font-family: 'IBM plex Regular';
+}
+
+.flickr-embed-frame{
+    margin: auto !important;
+}
